@@ -28,7 +28,7 @@ export const TaskCard: React.FC<TaskCardProps> = ({ task, onToggle, onDelete }) 
           <span className="checkmark"></span>
         </label>
         <div className="task-info">
-          <h3>{task.title}</h3>
+          <h4>{task.title}</h4>
           {task.description && <p>{task.description}</p>}
         </div>
       </div>
